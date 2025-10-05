@@ -1,1 +1,1 @@
-# lab-assignment-krmu-webdev1
+Welcome to my personal portfolio project! This site is built using semantical HTML and accessible design principles to showcase my skills, projects and contact information. It reflects my journey as a Btech (CSE-AL&ML) student and my growing passion for web development.
