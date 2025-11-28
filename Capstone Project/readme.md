@@ -66,5 +66,6 @@ The website is fully responsive with the following breakpoints:
 name: Rishika bhambri
 Date: 28 Nov 2025
 Course: B. Tech CSE (AI/ML)
-   ```bash
+   
    git clone https://github.com/[username]/capstone-[YourName]-lab5.git
+<img width="1912" height="898" 
