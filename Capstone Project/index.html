@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamHome Real Estate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">DreamHome</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Properties</a></li>
+                <li><a href="#">Agents</a></li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#" class="btn-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Home</h1>
+            <p>Discover the best properties for sale and rent.</p>
+        </div>
+    </section>
+
+    <div class="search-container">
+        <form class="search-bar">
+            <input type="text" placeholder="Location">
+            <select>
+                <option>Price Range</option>
+                <option>$100k - $200k</option>
+                <option>$200k - $500k</option>
+            </select>
+            <select>
+                <option>Bedrooms</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3+</option>
+            </select>
+            <select>
+                <option>Type</option>
+                <option>House</option>
+                <option>Apartment</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <section class="section latest-properties">
+        <h2 class="section-title">Latest Properties</h2>
+        <div class="grid-container">
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                    alt="House 1">
+                <div class="card-info">
+                    <h3>Modern Family Home</h3>
+                    <p>$450,000</p>
+                    <p class="details">4 Beds • 3 Baths</p>
+                </div>
+            </div>
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                    alt="House 2">
+                <div class="card-info">
+                    <h3>Luxury Apartment</h3>
+                    <p>$320,000</p>
+                    <p class="details">2 Beds • 2 Baths</p>
+                </div>
+            </div>
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                    alt="House 3">
+                <div class="card-info">
+                    <h3>Cozy Cottage</h3>
+                    <p>$280,000</p>
+                    <p class="details">3 Beds • 2 Baths</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section featured-agents">
+        <h2 class="section-title">Featured Agents</h2>
+        <div class="flex-container">
+            <div class="agent-card">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Agent">
+
+                <span class="role">Senior Agent</span>
+                <p>10+ years of experience in luxury properties.</p>
+            </div>
+            <div class="agent-card">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Agent">
+
+                <span class="role">Property Specialist</span>
+                <p>Expert in family homes and apartments.</p>
+            </div>
+            <div class="agent-card">
+                <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="Agent">
+
+                <span class="role">Commercial Expert</span>
+                <p>Specialist in commercial and investment properties.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section why-choose-us">
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="flex-container icons-row">
+            <div class="icon-box">
+                <i class="fas fa-trophy"></i>
+                <h4>Trusted Experts</h4>
+                <p>Our agents are certified and highly experienced.</p>
+            </div>
+            <div class="icon-box">
+                <i class="fas fa-headset"></i>
+                <h4>24/7 Support</h4>
+                <p>We are always available to assist you.</p>
+            </div>
+            <div class="icon-box">
+                <i class="fas fa-search-location"></i>
+                <h4>Wide Selection</h4>
+                <p>Find properties that match your needs and budget.</p>
+            </div>
+            <div class="icon-box">
+                <i class="fas fa-thumbs-up"></i>
+                <h4>Best Deals</h4>
+                <p>Get the best prices and exclusive offers.</p>
+            </div>
+        </div>
+    </section>
+
+     <!-- Contact Section -->
+        <section id="contact" class="btn-contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
+
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+        </section>
+
+    <section class="stats-bar">
+        <div class="stat-item">
+            <h3>1,200+</h3>
+            <p>Properties Sold</p>
+        </div>
+        <div class="stat-item">
+            <h3>350</h3>
+            <p>Happy Clients</p>
+        </div>
+        <div class="stat-item">
+            <h3>15</h3>
+            <p>Years Experience</p>
+        </div>
+        <div class="stat-item">
+            <h3>30</h3>
+            <p>Expert Agents</p>
+        </div>
+    </section>
+
+    <section class="section latest-blog">
+        <h2 class="section-title">Latest Blog Posts</h2>
+    </section>
+
+</body>
+
+</html>
